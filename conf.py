@@ -24,14 +24,14 @@ copyright = '1990-%s, Python Software Foundation' % time.strftime('%Y')
 # The default replacements for |version| and |release|.
 #
 # The short X.Y version.
-# version = '2.6'
+version = '2.7'
 # The full version, including alpha/beta/rc tags.
-# release = '2.6a0'
+release = '2.7.6'
 
 # We look for the Include/patchlevel.h file in the current Python source tree
 # and replace the values accordingly.
 import patchlevel
-version, release = patchlevel.get_version_info()
+#version, release = patchlevel.get_version_info()
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
