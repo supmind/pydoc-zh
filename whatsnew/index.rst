@@ -1,8 +1,8 @@
 .. _whatsnew-index:
 
-######################
- What's New in Python
-######################
+##########################
+ What's New in Python 更新
+##########################
 
 The "What's New in Python" series of essays takes tours through the most
 important changes between major Python versions.  They are a "must read" for
