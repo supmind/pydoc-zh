@@ -1,8 +1,8 @@
 .. _tut-intro:
 
-**********************
-Whetting Your Appetite
-**********************
+*****************************
+Whetting Your Appetite 开胃菜
+*****************************
 
 If you do much work on computers, eventually you find that there's some task
 you'd like to automate.  For example, you may wish to perform a
