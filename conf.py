@@ -62,9 +62,9 @@ add_module_names = True
 
 # Options for HTML output
 # -----------------------
-
-html_theme = 'default'
-html_theme_options = {'collapsiblesidebar': True}
+html_theme = "sphinx_rtd_theme"
+html_theme_path = ["./themes", ]
+#html_theme_options = {}
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
@@ -189,5 +189,3 @@ coverage_c_regexes = {
 coverage_ignore_c_items = {
 #    'cfunction': [...]
 }
-html_theme = 'sphinx_rtd_theme'
-html_theme_path = ['_themes', ]
