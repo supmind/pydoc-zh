@@ -6,10 +6,11 @@ Built-in Functions
 
 The Python interpreter has a number of functions built into it that are always
 available.  They are listed here in alphabetical order.
+
 python解释器拥有一定数量的内建函数。下面按字母表顺序列出。
 
 ===================  =================  ==================  =================  ====================
-..                   ..                 内建函数  ..                 ..
+..                   ..                     内建函数.                 ..
 ===================  =================  ==================  =================  ====================
 :func:`abs`          :func:`divmod`     :func:`input`       :func:`open`       :func:`staticmethod`
 :func:`all`          :func:`enumerate`  :func:`int`         :func:`ord`        :func:`str`
