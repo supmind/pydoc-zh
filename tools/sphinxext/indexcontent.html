@@ -1,16 +1,16 @@
 {% extends "defindex.html" %}
 {% block tables %}
-  <p><strong>Parts of the documentation:</strong></p>
+  <p><strong>文档内容:</strong></p>
   <table class="contentstable" align="center"><tr>
     <td width="50%">
-      <p class="biglink"><a class="biglink" href="{{ pathto("whatsnew/" + version) }}">What's new in Python {{ version }}?</a><br/>
+      <p class="biglink"><a class="biglink" href="{{ pathto("whatsnew/" + version) }}">更新 {{ version }}?</a><br/>
          <span class="linkdescr">or <a href="{{ pathto("whatsnew/index") }}">all "What's new" documents</a> since 2.0</span></p>
-      <p class="biglink"><a class="biglink" href="{{ pathto("tutorial/index") }}">Tutorial</a><br/>
-         <span class="linkdescr">start here</span></p>
-      <p class="biglink"><a class="biglink" href="{{ pathto("library/index") }}">Library Reference</a><br/>
-         <span class="linkdescr">keep this under your pillow</span></p>
-      <p class="biglink"><a class="biglink" href="{{ pathto("reference/index") }}">Language Reference</a><br/>
-         <span class="linkdescr">describes syntax and language elements</span></p>
+      <p class="biglink"><a class="biglink" href="{{ pathto("tutorial/index") }}">教程</a><br/>
+         <span class="linkdescr">从这里开始</span></p>
+      <p class="biglink"><a class="biglink" href="{{ pathto("library/index") }}">标准库手册</a><br/>
+         <span class="linkdescr">放在枕边，以备查看</span></p>
+      <p class="biglink"><a class="biglink" href="{{ pathto("reference/index") }}">语言手册</a><br/>
+         <span class="linkdescr">描述函数及语言要素</span></p>
       <p class="biglink"><a class="biglink" href="{{ pathto("using/index") }}">Python Setup and Usage</a><br/>
          <span class="linkdescr">how to use Python on different platforms</span></p>
       <p class="biglink"><a class="biglink" href="{{ pathto("howto/index") }}">Python HOWTOs</a><br/>
