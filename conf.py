@@ -189,3 +189,5 @@ coverage_c_regexes = {
 coverage_ignore_c_items = {
 #    'cfunction': [...]
 }
+html_theme = "sphinx_rtd_theme"
+html_theme_path = ["_themes", ]
