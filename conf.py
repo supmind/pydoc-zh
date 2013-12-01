@@ -97,6 +97,7 @@ htmlhelp_basename = 'python' + release.replace('.', '')
 # Split the index
 html_split_index = True
 
+html_title='Python 2.7.6 中文文档'
 
 # Options for LaTeX output
 # ------------------------
