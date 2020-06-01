@@ -1,7 +1,7 @@
 :mod:`Queue` --- A synchronized queue class
 ===========================================
 
-.. module:: Queue
+.. module:: queue
    :synopsis: A synchronized queue class.
 
 .. note::
@@ -9,7 +9,7 @@
    :term:`2to3` tool will automatically adapt imports when converting your
    sources to Python 3.
 
-**Source code:** :source:`Lib/Queue.py`
+**Source code:** :source:`Lib/queue.py`
 
 --------------
 
@@ -27,7 +27,7 @@ the first retrieved (operating like a stack).  With a priority queue,
 the entries are kept sorted (using the :mod:`heapq` module) and the
 lowest valued entry is retrieved first.
 
-The :mod:`Queue` module defines the following classes and exceptions:
+The :mod:`queue` module defines the following classes and exceptions:
 
 .. class:: Queue(maxsize=0)
 
